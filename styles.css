@@ -1,0 +1,99 @@
+* {
+
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+/*HEADER*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    
+}
+
+ion-icon {
+    
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    
+}
+
+li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 30px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+	li {
+	font-size: 15px;
+	width: 100%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    ion-icon {
+	font-size: 10px;
+	width: 40px;
+    height: 40px;
+    
+	}
+}
+
+/*WRAPPER (logo)*/
+
+section {
+    
+    
+}
+
+section img {
+    width: 600px;
+    padding: 30px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    section img {
+	width: 100%;
+	
+    
+	}
+}
+
+/*DIV (WECUTGRASS) */
+
+.cutgrass p {
+    color: green;
+    font-size: 40px;
+    width: 600px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .cutgrass p {
+	width: 100%;
+	
+    
+	}
+}
+
+.article {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.text img {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    
+}
