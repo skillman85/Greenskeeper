@@ -47,14 +47,15 @@ li {
 
 /*WRAPPER (logo)*/
 
-section {
-    
+.section .text {
+  width: 200px;
     
 }
 
 section img {
     width: 600px;
     padding: 30px;
+    
     
 }
 
@@ -83,17 +84,44 @@ section img {
 	}
 }
 
+/*SECTION ARTICLE*/
+
 .article {
     display: flex;
-    background-color: aqua;
     justify-content: space-between;
-    margin: 30px;
+    
+}
+
+.article .text {
+    display: flex;
+    justify-content: space-between;
 }
 
 .text img {
-    width: 100px;
-    display: flex;
-    flex-direction: row;
-    background-color: brown;
-    
+    width: 400px;
+
 }
+
+.article p {
+    color: green;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 35px;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+.article p     {
+	font-size: 20px;
+	width: 100%;
+    
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    .article img     {
+        
+        width: 100%;
+        
+        }
+    }
