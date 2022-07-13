@@ -3,6 +3,7 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+background-color: black;
 
 }
 
@@ -15,57 +16,84 @@ padding: 0;
     
 }
 
+/*SOCIAL MEDIA ICONS/LINKS */
+
 ion-icon {
     
     margin-right: 20px;
-    width: 40px;
-    height: 40px;
-    color: white;
-    border: 2px solid white;
+    width: 30px;
+    height: 30px;
+    color: rgb(21, 55, 18);
+    border: 2px solid rgb(21, 55, 18);
     border-radius: 50%;
     padding: 10px;
     
 }
 
+@media only screen and (max-width: 600px) {
+    ion-icon {
+	font-size: 10px;
+	width: 15px;
+    height: 15px;
+    color: rgb(21, 55, 18);
+    border: 2px solid rgb(21, 55, 18);
+    border-radius: 50%;
+    padding: 10px ;
+   
+	}
+}
+/*NAV-BAR*/
+
 li {
     display: inline;
-    margin-right: 50px;
-    font-size: 30px;
+    font-size: 20px;
+    color: rgb(254, 255, 254); 
+    margin-left: 50px; 
+    font-weight: bold;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 4px 4px rgb(85, 194, 38);
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: forestgreen;
     
 }
 
 @media only screen and (max-width: 600px) {
 	li {
 	font-size: 15px;
-	width: 100%;
+    padding-top: 0px;
 	}
 }
 
-@media only screen and (max-width: 600px) {
-    ion-icon {
-	font-size: 10px;
-	width: 20px;
-    height: 20px;
-    color: white;
-    border: 2px solid white;
-    border-radius: 50%;
-    padding: 10px;
-    
-	}
-}
+
 
 /*WRAPPER (logo)*/
 
+section {
+    
+    background-size: auto;
+    background-repeat: no-repeat;
 
+}
 section img {
     
-    
+    border-radius: 20px;
     width: 600px;
     border: 3px green solid;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    padding: 30px;
     
 }
 
+center {
+    background-image: url(/images/cut-grass.jpg);
+}
 @media only screen and (max-width: 600px) {
     section img {
 	width: 100%;
@@ -77,22 +105,25 @@ section img {
 /*DIV (WECUTGRASS) */
 
 .cutgrass p {
-    color: green;
-    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 5px 3px 3px rgb(85, 194, 38);
 }
 
 @media only screen and (max-width: 600px) {
     .cutgrass p {
 	width: 100%;
+    font-size: 30px;
 	
     
 	}
 }
 
-/*CONTAINER - TEXT*/
+/*CONTAINER - TOP TEXT*/
 
 
 .container {
@@ -108,17 +139,15 @@ section img {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    align-items: center;
-    flex-wrap: nowrap;
-    
+    align-items: center;   
     
 }
 
 
 
 .container .text1 {
-    font-size: 20px;
-    color: rgb(188, 25, 25);
+    font-size:15px;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
@@ -127,14 +156,14 @@ section img {
     margin: 30px;
     width: 25%;
     height: 100px;
-    
+    font-family: Arial, Helvetica, sans-serif;
     
     
 }
 
 .container .text2 {
-    font-size: 20px;
-    color: rgb(188, 25, 25);
+    font-size: 15px;
+    color: rgb(51, 176, 55);
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
@@ -144,12 +173,12 @@ section img {
     margin: 30px;
     width: 25%;
     height: 100px;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container .text3 {
-    font-size: 20px;
-    color: rgb(188, 25, 25);
+    font-size: 15px;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
@@ -158,14 +187,14 @@ section img {
     margin: 30px;
     width: 25%;
     height: 100px;
-   
+    font-family: Arial, Helvetica, sans-serif;
   
     
 }
 
 .container .text4 {
-    font-size: 20px;
-    color: rgb(188, 25, 25);
+    font-size: 15px;
+    color: rgb(51, 176, 55);
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
@@ -174,17 +203,12 @@ section img {
     margin: 30px;
     width: 25%;
     height: 100px;
-    
+    font-family: Arial, Helvetica, sans-serif;
   
     
 }
 
 
 
-@media only screen and (max-width: 600px) {
-    p {
-        width: 100%;
-        
-           }
-}
+
 
