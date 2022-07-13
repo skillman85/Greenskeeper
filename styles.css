@@ -1,212 +1,29 @@
+
+
+
 * {
 
 box-sizing: border-box;
 margin: 0;
 padding: 0;
 background-color: black;
+font-family: 'Abel', cursive;
+color: white;
 
 }
 
-/*HEADER*/
-
-.header {
+header {
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+
     
 }
-
-/*SOCIAL MEDIA ICONS/LINKS */
-
-ion-icon {
-    
-    margin-right: 20px;
-    width: 30px;
-    height: 30px;
-    color: rgb(21, 55, 18);
-    border: 2px solid rgb(21, 55, 18);
-    border-radius: 50%;
-    padding: 10px;
-    
-}
-
-@media only screen and (max-width: 600px) {
-    ion-icon {
-	font-size: 10px;
-	width: 15px;
-    height: 15px;
-    color: rgb(21, 55, 18);
-    border: 2px solid rgb(21, 55, 18);
-    border-radius: 50%;
-    padding: 10px ;
-   
-	}
-}
-/*NAV-BAR*/
 
 li {
-    display: inline;
-    font-size: 20px;
-    color: rgb(254, 255, 254); 
-    margin-left: 50px; 
-    font-weight: bold;
-    font-family: 'Abel', sans-serif;
-    text-shadow: 3px 4px 4px rgb(85, 194, 38);
-   
-}
-
-a {
-    text-decoration: none;
-}
-
-li:hover {
-    background-color: forestgreen;
-    
-}
-
-@media only screen and (max-width: 600px) {
-	li {
-	font-size: 15px;
-    padding-top: 0px;
-	}
+    display: inline;  
 }
 
 
-
-/*WRAPPER (logo)*/
-
-section {
-    
-    background-size: auto;
-    background-repeat: no-repeat;
-
-}
-section img {
-    
-    border-radius: 20px;
-    width: 600px;
-    border: 3px green solid;
-    margin-bottom: 20px;
-    padding: 30px;
-    
-}
-
-center {
-    background-image: url(/images/cut-grass.jpg);
-}
-@media only screen and (max-width: 600px) {
-    section img {
-	width: 100%;
-	
-    
-	}
-}
-
-/*DIV (WECUTGRASS) */
-
-.cutgrass p {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 50px;
-    font-family: 'Permanent Marker', cursive;
-    text-shadow: 5px 3px 3px rgb(85, 194, 38);
-}
-
-@media only screen and (max-width: 600px) {
-    .cutgrass p {
-	width: 100%;
-    font-size: 30px;
-	
-    
-	}
-}
-
-/*CONTAINER - TOP TEXT*/
-
-
-.container {
-    background-color: yellow;
-    padding: 20px;
-    gap: 50px;
-
-    
-    
-}
-
-.text {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;   
-    
-}
-
-
-
-.container .text1 {
-    font-size:15px;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-align: center;
-    vertical-align: middle;
-    border: 5px solid white;
-    padding: 15px;
-    margin: 30px;
-    width: 25%;
-    height: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    
-}
-
-.container .text2 {
-    font-size: 15px;
-    color: rgb(51, 176, 55);
-    font-weight: bold;
-    text-align: center;
-    vertical-align: middle;
-    flex-direction: row;
-    border: 5px solid white;
-    padding: 15px;
-    margin: 30px;
-    width: 25%;
-    height: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container .text3 {
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-align: center;
-    vertical-align: middle;
-    border: 5px solid white;
-    padding: 15px;
-    margin: 30px;
-    width: 25%;
-    height: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-  
-    
-}
-
-.container .text4 {
-    font-size: 15px;
-    color: rgb(51, 176, 55);
-    font-weight: bold;
-    text-align: center;
-    vertical-align: middle;
-    border: 5px solid white;
-    padding: 15px;
-    margin: 30px;
-    width: 25%;
-    height: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-  
-    
-}
 
 
 
