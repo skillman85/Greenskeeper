@@ -6,18 +6,24 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-background-color: black;
+background-color: rgb(27, 95, 27);
 font-family: 'Abel', cursive;
 color: white;
 
 }
 
-/*HEADER LOGO*/
+.wrapper {
+    
+}
+
+/*HEADER*/
 
 header {
     display: flex;
     justify-content: space-between;
     margin: 1rem;
+    
+    
 
     
     
@@ -68,33 +74,37 @@ li:hover {
     li {
       
     font-size: 1rem;
-    color: grey;
+    color: white;
     }
 }   
 
 
 
 /*MAIN LOGO*/
-img {
+.logo img {
     display: block;
     max-width: 100%;
     margin: 0 auto;
     margin-top: 4rem;
-    
+    border: 3px solid rgb(99, 189, 99);
+    padding: 2rem;
+    border-radius: 30px;  
 
 }
 
-/*CUT GRASS*/
+/* WE CUT GRASS*/
 
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 1rem;
+    max-width: 100%;
 }
 
 .top-body p {
     text-align: center;
+    padding: 5px;
     
 }
 
@@ -105,8 +115,65 @@ h1 {
     display: block;
 }
 
+/*QUOTES*/
+
+
+
+
+
+.text {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+    gap: 50px;
+    
+   
+    
+    
+    
+}
+
+.text1, .text3 {
+    
+    color: rgb(99, 189, 99);
+    font-size: 2rem;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding-left: 0;
+    
+}
+
+.text2 {
+    color: white;
+    font-size: 2rem;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold; 
+    margin-bottom: 1rem;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+    gap: 50px;
+    
+}
+
 .images img {
-    display: inline-block;
+    
+    max-width: 100%;
 }
 
 
