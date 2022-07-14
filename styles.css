@@ -62,12 +62,13 @@ li:hover {
         border-radius: 50%;
         border: 1px solid white;
         padding: 5px;
-        color   
+         
     }
 
     li {
       
     font-size: 1rem;
+    color: grey;
     }
 }   
 
