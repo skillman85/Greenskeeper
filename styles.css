@@ -94,8 +94,6 @@ li:hover {
 
 /* WE CUT GRASS*/
 
-
-
 h1 {
     font-size: 2rem;
     text-align: center;
@@ -107,8 +105,7 @@ h1 {
     padding-right: 1rem;
     padding-left: 1rem;
     text-shadow: 3px 2px 2px rgb(186, 218,85);
-	
-    
+	    
 }
 
 
@@ -245,6 +242,8 @@ h3 {
 section .footer-socials {
 	display: flex;
 	gap: 1rem;
+    padding: 0;
+    justify-content: center;
 }
 
 
@@ -254,4 +253,52 @@ section .footer-socials {
     text-align: center;
     border-radius: 10px;
     border: 2px solid greenyellow;
+}
+
+.footer-socials ion-icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    .footer-socials ion-icon {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 20px;
+        
+        
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:500px) {
+.footer-socials p {
+    
+    font-size: 20px;
+    margin-left: 5px;
+    
+}
+}
+
+
+.footer-socials .copyright {
+    margin-left: 1rem;
+}
+
+@media screen and (max-width:500px) {
+    .copyright {    
+    font-size: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
 }
