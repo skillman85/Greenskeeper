@@ -8,12 +8,8 @@ margin: 0;
 padding: 0;
 font-family: 'Abel', cursive;
 color: rgb(14, 13, 13);
-background-image: url(./images/Background.jpg); 
+ 
 
-}
-
-.wrapper {
-background-image: url(./images/Background.jpg);   
 }
 
 /*HEADER*/
@@ -22,8 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 1rem;
-    
-    
+		
 
     
     
@@ -88,7 +83,6 @@ li:hover {
     display: block;
     max-width: 100%;
     margin: 0 auto;
-    border: 3px solid rgb(99, 189, 99);
     padding: 2rem;
     border-radius: 60px;  
     
@@ -97,17 +91,19 @@ li:hover {
 
 /* WE CUT GRASS*/
 
-.cut-grass {
-    padding: 30px;
-}
+
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     max-width: 100%;
     color: rgb(11, 117, 11);
+		font-family: 'Permanent Marker', cursive;
+		padding-right: 1rem;
+		padding-left: 1rem;
+		text-shadow: 3px 2px 2px black;
     
 }
 
@@ -115,7 +111,8 @@ h1 {
 .top-body p {
     text-align: center;
     padding: 5px;
-    
+    font-weight: bold;
+		font-size: 1rem;
 }
 
 /*VIDEO*/
