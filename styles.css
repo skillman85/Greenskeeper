@@ -28,7 +28,7 @@ header {
 /*NAV BAR*/
 li {
     display: inline;  
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-right: 1rem;
     color: white;
     
@@ -102,11 +102,11 @@ h1 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     max-width: 100%;
-    color: rgb(11, 117, 11);
+    color: green;
     font-family: 'Permanent Marker', cursive;
     padding-right: 1rem;
     padding-left: 1rem;
-    text-shadow: 3px 2px 2px lightgrey;
+    text-shadow: 3px 2px 2px rgb(186, 218,85);
 	
     
 }
@@ -117,7 +117,9 @@ h1 {
     text-align: center;
     padding: 5px;
     font-weight: bold;
-	font-size: 1rem;
+	font-size: 2rem;
+	color: #257345;
+	font-family: 'Promt' cursive;
 	
 }
 
@@ -144,7 +146,7 @@ h1 {
 
 .text1, .text2, .text3 {
     
-    color: 
+    
     font-size: 1.5rem;
     padding: 10px;
     margin: 0 auto;
@@ -193,7 +195,7 @@ h2 {
     font-family: 'Permanent Marker', cursive;
     padding-right: 1rem;
     padding-left: 1rem;
-    text-shadow: 3px 2px 2px black;
+    text-shadow: 3px 2px 2px rgb(186, 218,85);
     color: darkgreen;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -202,7 +204,7 @@ h2 {
 
 @media screen and (max-width:500px) {
     h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
 }
@@ -214,9 +216,6 @@ h2 {
     justify-content: center;
     margin: 2rem;
     gap: 20px;
-    
-    
-    
 }
 
 
@@ -224,6 +223,13 @@ h2 {
     border-radius: 8px;
     max-width: 100%;
     border: 2px solid darkslategrey;
+	margin: 5px;
+	
+}
+
+section .footer-socials {
+	display: flex;
+	gap: 1rem;
 }
 
 
