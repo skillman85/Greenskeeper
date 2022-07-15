@@ -7,8 +7,9 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 font-family: 'Abel', cursive;
-color: rgb(14, 13, 13);
- 
+color: white;
+background-color: black;
+
 
 }
 
@@ -29,7 +30,7 @@ li {
     display: inline;  
     font-size: 2rem;
     margin-right: 1rem;
-    color: rgb(23, 24, 23);
+    color: white;
     
     
 }
@@ -44,11 +45,13 @@ li:hover {
 /* SOCIAL ICONS*/
 
 .socials ion-icon {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border: 1px solid white;
     padding: 10px;
+	color: white;
+	margin: 10px;
     
     
 }
@@ -103,7 +106,8 @@ h1 {
     font-family: 'Permanent Marker', cursive;
     padding-right: 1rem;
     padding-left: 1rem;
-    text-shadow: 3px 2px 2px black;
+    text-shadow: 3px 2px 2px lightgrey;
+	
     
 }
 
@@ -114,6 +118,7 @@ h1 {
     padding: 5px;
     font-weight: bold;
 	font-size: 1rem;
+	
 }
 
 /*VIDEO*/
@@ -122,6 +127,7 @@ h1 {
     margin: 0 auto;
     display: block;
     border-radius: 20px;
+	
     
 }
 
@@ -147,6 +153,7 @@ h1 {
     font-weight: bold;
     margin-bottom: 10px;
     text-shadow: 3px 2px 2px black;
+	
         
 }
 
