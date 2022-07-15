@@ -133,15 +133,12 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 3rem;
-    gap: 20px; 
-    background-color: rgb(123, 134, 104);
-    
-    
+    gap: 20px;  
 }
 
 .text1, .text2, .text3 {
     
-    color: rgb(255, 255, 255);
+    color: 
     font-size: 1.5rem;
     padding: 10px;
     margin: 0 auto;
@@ -190,8 +187,7 @@ h2 {
     padding-right: 1rem;
     padding-left: 1rem;
     text-shadow: 3px 2px 2px black;
-    color: rgb(11, 117, 11);
-    background-color: rgb(198, 255, 165);
+    color: darkgreen;
     padding-bottom: 50px;
     padding-top: 50px;
 }
