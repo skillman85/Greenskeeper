@@ -40,7 +40,7 @@ li {
     margin-right: 1rem;
     display: inline-block;
     font-weight: bold;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 a {
@@ -130,7 +130,7 @@ h1 {
  }
 
 .quote1 {
-    margin-bottom: 50px;
+    margin-bottom: 0;
     font-size: 1.5rem;
     text-align: center;
     margin-right: 90px;
@@ -139,6 +139,7 @@ h1 {
     font-weight: bold;
     padding: 20px;
     border: 3px solid var(--text-color);
+		font-style: italic;
   
 } 
 
@@ -152,7 +153,7 @@ h1 {
     font-weight: bold;
     padding: 20px;
     border: 3px solid var(--text-color);
-    
+    font-style: italic;
     
 }
 
