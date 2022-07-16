@@ -33,61 +33,6 @@ header {
 
 }
 
-.menu-button {
-	display: flex;
-	position: relative;
-	justify-content: center;
-	align-items: center;
-	width: 80px;
-	height: 80px;
-	cursor: pointer;
-	transition: all .5s ease-in-out;
-	border: 3px solid black;
-}
-
-.menu-button-burger {
-	width: 50px;
-	height: 6px;
-	background: black;
-	border-radius: 5px;
-	box-shadow: 0px 2px 5px grey;
-	transition: all .5s ease-in-out;
-}
-.menu-button-burger::before,
-.menu-button-burger::after {
-	content: '';
-	position: absolute;
-	width: 50px;
-	height: 6px;
-	background: black;
-	border-radius: 5px;
-	box-shadow: 0px 2px 5px grey;
-	transition: all .5s ease-in-out;
-}
-
-.menu-button-burger::before {
-	transform: translateY(-16px);
-	
-}
-
-.menu-button-burger::after {
-	transform: translateY(16px);
-	
-}
-
-.menu-button.open .menu-button-burger {
-	transform: translateY(-0px);
-	background: transparent;
-	box-shadow: none;
-}
-
-.menu-button.open .menu-button-burger::before {
-	transform: rotate(45deg) translate(35px, -35px);
-}
-
-.menu-button.open .menu-button-burger::after {
-	transform: rotate(-45deg) translate(35px, 35px);
-}
 
 
 /*NAV BAR*/
