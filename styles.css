@@ -301,7 +301,8 @@ section .footer-socials {
 
 .images p  {
     background-color:var(--images-background);
-    padding: 20px;
+    padding: 10px;
+    margin-bottom: 8px;
     text-align: center;
     border-radius: 10px;
     border: 2px solid var(--course-info);
