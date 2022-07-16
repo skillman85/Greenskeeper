@@ -93,39 +93,6 @@ li:hover {
     max-width: 100%;
     margin: 0 auto;
 }
-
-/* WE CUT GRASS*/
-
-h1 {
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    max-width: 100%;
-    font-family: 'Bungee', cursive;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    text-shadow: 1px 2px 1px black;
-	    
-}
-
-@media screen and (max-width: 500px) {
-
-    h1 {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    max-width: 100%;
-    font-family: 'Bungee', cursive;
-    padding-right: 1rem;
-    padding-left: 1rem;
-     text-shadow: 1px 2px 1px black;
-        
-    }
-    }
-
-
   
  img {
     max-width: 100%;
@@ -143,7 +110,7 @@ h1 {
     padding: 20px;
     border: 1px solid darkgrey;
 	font-family: 'Fredericka the great', cursive;
-  
+  	
 } 
 
 .quote2 {
@@ -169,21 +136,36 @@ h1 {
     
 }
 
-.sub-header, .sub-header2 {
+.sub-header {
     text-align: center;
     padding: 5px;
     font-weight: bold;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	font-family:var(--font-main);
     color: #3A3B3C;
     margin-bottom: 5rem;
 }
 
+.sub-header2 {
+	text-align: center;
+	padding: 50px;
+	font-weight: bold;
+	font-size: 1rem;
+	font-family:var(--font-main);
+	color: white;
+	margin-bottom: 0;
+	background-color: #C2B280;
+	
+	
+}
+	
+  
+
 .top-body p {
     text-align: center;
     padding: 5px;
     font-weight: bold;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	font-family: 'Readex Pro', sans-serif;
     color: #3A3B3C;
     margin-bottom: 5rem;
@@ -212,21 +194,9 @@ h1 {
     display: block;
     margin-top: 3rem;
     margin-bottom: 2rem;
-    
-	
-    
 }
 
-video {
-    border-radius: 30px;
-    
-}
 
-@media screen and (max-width:500px){
-	video {
-		border-radius: 0;
-	}
-}
 
 /*H2 CHECk OUT COURSES*/
 
@@ -236,14 +206,14 @@ h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-top: 0;
-    font-family: 'Alumni Sans Inline One', cursive;
+    font-family: 'Love Ya Like A Sister', cursive;
     padding-right: 1rem;
     padding-left: 1rem;
     text-shadow: 1px 1px 0px rgb(241, 241, 239);
     padding-bottom: 50px;
     padding-top: 50px;
-    background-color:var(--images-background);
-    color:slategrey;
+    background-color:#848B79;
+    color:#413839;
 }
 
 
@@ -425,7 +395,7 @@ section .footer-socials {
     border-radius: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
