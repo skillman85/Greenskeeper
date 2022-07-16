@@ -19,6 +19,7 @@ color: var(--text-color)
 
 }
 
+
 /*HEADER*/
 
 header {
@@ -79,7 +80,6 @@ li:hover {
 }   
 
 
-
 /*MAIN LOGO*/
 .logo img {
     display: block;
@@ -98,7 +98,7 @@ h1 {
     font-family: 'Permanent Marker', cursive;
     padding-right: 1rem;
     padding-left: 1rem;
-    text-shadow: 3px 2px 2px rgb(186, 218,85);
+    text-shadow: 1px 2px 1px rgb(186, 218,85);
 	    
 }
 
