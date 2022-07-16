@@ -219,7 +219,11 @@ video {
     
 }
 
-
+@media screen and (max-width:500px){
+	video {
+		border-radius: 0;
+	}
+}
 
 /*H2 CHECk OUT COURSES*/
 
@@ -298,7 +302,7 @@ section .footer-socials {
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    border: 2px solid greenyellow;
+    border: 2px solid var(--course-info);
     color: var(--course-info);
     
 }
