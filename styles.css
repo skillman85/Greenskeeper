@@ -5,7 +5,7 @@
     --course-info: rgb(0, 0, 0);
     --images-background: rgb(192, 207, 192);
     --h2: rgb(16, 58, 16);
-    --font-main:font-family: 'Work Sans', sans-serif;
+    --font-family: 'Readex Pro', sans-serif;
     --wrapper-back: rgb(68, 85, 67);
   }
 
@@ -97,6 +97,13 @@ li:hover {
  img {
     max-width: 100%;
  }
+ 
+ .plan img {
+	display: block;
+    max-width: 100%;
+    margin: 0 auto; 
+	margin-bottom: 30px;
+ }
 
 .quote1 {
     margin-bottom: 0;
@@ -150,8 +157,8 @@ li:hover {
 	text-align: center;
 	padding: 50px;
 	font-weight: bold;
-	font-size: 1rem;
-	font-family:var(--font-main);
+	font-size: 1.25rem;
+	font-family: 'Readex Pro', sans-serif;
 	color: white;
 	margin-bottom: 0;
 	background-color: #C2B280;
@@ -165,7 +172,7 @@ li:hover {
     text-align: center;
     padding: 5px;
     font-weight: bold;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	font-family: 'Readex Pro', sans-serif;
     color: #3A3B3C;
     margin-bottom: 5rem;
@@ -281,6 +288,8 @@ section .footer-socials {
     
 }
 
+/*FOOTER DETAILS*/
+
 .footer-socials ion-icon {
     width: 30px;
     height: 30px;
@@ -336,7 +345,7 @@ section .footer-socials {
 }
 
 
-
+/*NAV BAR BUTTON */
 
 .navbar {
     margin-bottom: 50px;
