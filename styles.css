@@ -26,10 +26,11 @@ color: var(--text-color)
 /*HEADER*/
 
 header {
-    display: block;
+    
     max-width: 100%;
     margin: 0 auto;
     padding: 1rem;
+    background-color: #738d74;
 
 }
 
@@ -40,17 +41,20 @@ li {
      
     font-size: 1.5rem;
     margin-right: 1rem;
-    display: inline-block;
     font-weight: bold;
     margin-left: 20px;
+    background-color: #738d74;
+    
 }
 
 a {
     text-decoration: none;
+    background-color: #738d74;
+    
 }
 
 li:hover {
-    background-color: green;
+    background-color: #738d74;
 }
 /* SOCIAL ICONS*/
 
@@ -116,38 +120,34 @@ li:hover {
     
 }
 
-.sub-header {
+.article {
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.sub-header  {
     text-align: center;
-    padding: 5px;
-    font-weight: bold;
-	font-size: 1rem;
-	font-family:var(--font-main);
-    color: #3A3B3C;
-    margin-bottom: 5rem;
+    font-size: 18px;
+    padding: 60px;
 }
 
-.sub-header2 {
-	text-align: center;
-	padding: 50px;
-	font-weight: bold;
-	font-size: 1.25rem;
-	font-family: 'Readex Pro', sans-serif;
-	color: white;
-	margin-bottom: 0;
-	background-color: #C2B280;
-	
-	
+.sub-header1, .sub-header2, .sub-header3 {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    background-color:#738d74;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 15px;
 }
 
-.top-body{
 
-    display: grid;
-    grid-template-rows: 300 400 300;
-    grid-template-columns: 100 auto 100;
-    grid-gap: 10px;
-
+.top-body {
+    background-image:url(./images/plan.jpg);
+    background-repeat:  repeat;  
 }
- 
+
+
 .quote1 {
 
     font-size: 2rem;
@@ -157,9 +157,8 @@ li:hover {
     padding: 40px;
     border: 1px solid darkgrey;
 	font-family: 'Fredericka the great', cursive;
-    
-  	
 } 
+
 
 
 @media screen and  (max-width: 500px) {
@@ -219,6 +218,19 @@ video {
     display: block;
     margin-top: 50px;
     margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:500px) {
+    video {
+        max-width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 0px;
+    }
+    
+    
 }
 
 /*H2 CHECk OUT COURSES*/
@@ -369,7 +381,7 @@ section .footer-socials {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    
+    background-color: #738d74;
 }
 
 
@@ -381,17 +393,19 @@ section .footer-socials {
     display: flex;
     margin: 0;
     padding: 0;
+    background-color: #738d74;
 }
 
 .navbar-links li {
     list-style: none;
+    background-color: #738d74;
 }
 
 .navbar-links li a {
     display: block;
     text-decoration: none;
     color: rgb(71, 95, 65);
-    
+    background-color: #738d74;
    
     
 }
