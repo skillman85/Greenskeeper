@@ -111,20 +111,38 @@ section .footer-socials {
     justify-content: center;
 }
 
+/* COURSE BOXES LIST*/
+
+h3 {
+	font-size: 20px;
+}
+
 .course-boxes {
 	display: grid;
-	grid-gap: 30px;
+	grid-gap: 90px;
 	grid-auto-rows:10px;
 	grid-template-columns: 300px 300px 300px;
 	justify-content: center;
 	padding: 10px;
+	margin-top: 50px;
 }
 
 
+.course-boxes div {
+	text-align: center;
+	padding: 20px;
+	color: slategrey;
+}
 
 
-
-
+.course-boxes li {
+	background-color: white;
+	list-style:none;
+	font-size: 15px;
+	font-family: 'Fredericka the great', cursive;
+	
+	
+}
 
 
 
@@ -132,7 +150,8 @@ section .footer-socials {
 /*FOOTER DETAILS*/
 
 .footer {
-	margin-top: 190px;
+	margin-top: 390px;
+	
 }
 
 .footer-socials ion-icon {
