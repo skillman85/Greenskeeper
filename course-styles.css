@@ -17,7 +17,7 @@ padding: 0;
 font-family: 'Readex Pro', sans-serif;
 color: white;
 background-color: white;
-color: var(--text-color)
+color: var(--text-color);
 
 
 }
@@ -98,11 +98,10 @@ li:hover {
     display: block;
     max-width: 100%;
     margin: 0 auto;
+	margin-bottom: 0px;
 }
   
- img {
-    max-width: 100%;
- }
+
  
 section .footer-socials {
 	display: flex;
@@ -111,20 +110,29 @@ section .footer-socials {
     justify-content: center;
 }
 
+/*COURSE SKETCH LOGO*/
+
+.course-sketch img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
 /* COURSE BOXES LIST*/
 
 h3 {
-	font-size: 20px;
+	font-size: 30px;
 }
 
 .course-boxes {
 	display: grid;
 	grid-gap: 90px;
-	grid-auto-rows:10px;
+	grid-auto-rows:400px;
 	grid-template-columns: 300px 300px 300px;
 	justify-content: center;
 	padding: 10px;
 	margin-top: 50px;
+	
 }
 
 
@@ -138,14 +146,30 @@ h3 {
 .course-boxes li {
 	background-color: white;
 	list-style:none;
-	font-size: 15px;
+	font-size: 20px;
 	font-family: 'Fredericka the great', cursive;
-	
+	font-style: italic;
+		
+}
+
+/*COURSE PLAYTHROUGH VIDEOS*/
+
+section .media {
+	display: grid;
+	grid-template-rows: 700px auto;
+	grid-template-columns: 400px auto;
+	justify-items: center;
 	
 }
 
+.youtube {
+	background-color:#738d74;
+}
 
-
+.youtube iframe {
+	padding: 20px;
+	margin: 40px 0;
+}
 
 /*FOOTER DETAILS*/
 
