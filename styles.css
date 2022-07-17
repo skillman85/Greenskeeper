@@ -142,7 +142,7 @@ li:hover {
     color: white;
     margin-bottom: 10px;
     margin-top: 15px;
-		border: 9px solid #999;
+	border: 9px solid #999;
     
 }
 
@@ -150,6 +150,13 @@ li:hover {
 .top-body {
     background-image:url(./images/plan.jpg);
     background-repeat:  repeat;  
+}
+
+.articles p {
+	padding: 20px;
+	border: 1px solid white;
+	background-color:#738d74;
+	color: white;
 }
 
 
