@@ -1,34 +1,186 @@
+:root {
+    --text-color: #738d74;
+    --quotes: #0e691d;
+    --blur: 10px;
+    --course-info: rgb(0, 0, 0);
+    --images-background: rgb(192, 207, 192);
+    --h2: rgb(16, 58, 16);
+    --font-family: 'Readex Pro', sans-serif;
+    --wrapper-back: rgb(68, 85, 67);
+  }
+
+* {
+
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Readex Pro', sans-serif;
+color: white;
+background-color: white;
+color: var(--text-color)
+
+
+}
+
+
+/*HEADER*/
+
+header {
+    
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #738d74;
+
+}
+
+
+
+/*NAV BAR*/
+li {
+     
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    font-weight: bold;
+    margin-left: 20px;
+    background-color: #738d74;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    background-color: #738d74;
+    
+    
+}
+
+li:hover {
+    background-color: #738d74;
+}
+/* SOCIAL ICONS*/
+
+.socials ion-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+	color: white;
+	margin: 10px;
+    
+    
+}
+
+/*SOCIALS MEDIA QUERY*/
+
+@media screen and  (max-width: 500px)  {
+    
+
+    .socials ion-icon {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        padding: 5px;
+         
+    }
+
+    li {
+      
+    font-size: 1rem;
+    
+    }
+}   
+
+
+/*MAIN LOGO*/
+.logo img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+  
+ img {
+    max-width: 100%;
+ }
+ 
+section .footer-socials {
+	display: flex;
+	gap: 1rem;
+    padding: 0;
+    justify-content: center;
+}
+
+
+
+/*FOOTER DETAILS*/
+
+.footer-socials ion-icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.footer-socials p {
+    margin-bottom: 5px;
+    margin-top: 100px; 
+    background-color: white;
+}
+
+
+.copyright {
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    .footer-socials ion-icon {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 20px;
+        
+        
+    }
+    
+}
 
 
 
 
+@media screen and (max-width:500px) {
+.footer-socials p {
+    
+    font-size: 20px;
+    margin-left: 5px;
+    background-color: white;
+}
+}
 
 
 
 
+@media screen and (max-width:500px) {
+    .copyright {    
+    font-size: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+}
 
 
+/*NAV BAR BUTTON */
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*NAV BAR BUTTON*/
 .navbar {
     margin-bottom: 50px;
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
-    
+    background-color: #738d74;
 }
 
 
@@ -40,25 +192,30 @@
     display: flex;
     margin: 0;
     padding: 0;
+    background-color: #738d74;
 }
 
 .navbar-links li {
     list-style: none;
+    background-color: #738d74;
+    
 }
 
 .navbar-links li a {
     display: block;
     text-decoration: none;
     color: rgb(71, 95, 65);
-    
-   
+    background-color: #738d74;
+    color: white;
+    margin-top: 30px;
     
 }
 
 .navbar-links li a:hover {
     background-color: rgb(92, 114, 94);
-    border-radius: 10px;
     color: white;
+    
+    
 }
 
 .toggle-button {
@@ -83,6 +240,8 @@
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        
+        
     }
 
     .toggle-button {
@@ -92,6 +251,9 @@
     .navbar-links {
         display: none;
         width: 100%;
+        color: white;
+        
+        
     }
 
     .navbar-links ul {
@@ -101,14 +263,20 @@
 
     .navbar-links ul li {
         text-align: center;
+        
     }
 
     .navbar-links ul li a {
         padding: .5rem 1rem;
         
+        
     }
 
     .navbar-links.active {
         display: flex;
+        
     }
 }
+
+
+
