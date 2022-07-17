@@ -45,11 +45,13 @@ li {
     margin-left: 20px;
     background-color: #738d74;
     
+    
 }
 
 a {
     text-decoration: none;
     background-color: #738d74;
+    
     
 }
 
@@ -129,16 +131,18 @@ li:hover {
     text-align: center;
     font-size: 18px;
     padding: 60px;
+    
 }
 
 .sub-header1, .sub-header2, .sub-header3 {
     text-align: center;
     font-size: 20px;
-    padding: 20px;
+    padding: 60px;
     background-color:#738d74;
     color: white;
     margin-bottom: 10px;
     margin-top: 15px;
+    
 }
 
 
@@ -219,6 +223,7 @@ video {
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 10px;
+    border: 12px solid white;
 }
 
 
@@ -323,11 +328,13 @@ section .footer-socials {
     height: 30px;
     margin-bottom: 10px;
     margin-top: 100px;
+    background-color: white;
 }
 
 .footer-socials p {
     margin-bottom: 5px;
     margin-top: 100px; 
+    background-color: white;
 }
 
 
@@ -356,7 +363,7 @@ section .footer-socials {
     
     font-size: 20px;
     margin-left: 5px;
-    
+    background-color: white;
 }
 }
 
@@ -399,6 +406,7 @@ section .footer-socials {
 .navbar-links li {
     list-style: none;
     background-color: #738d74;
+    
 }
 
 .navbar-links li a {
@@ -406,14 +414,15 @@ section .footer-socials {
     text-decoration: none;
     color: rgb(71, 95, 65);
     background-color: #738d74;
+    color: white;
    
     
 }
 
 .navbar-links li a:hover {
     background-color: rgb(92, 114, 94);
-    border-radius: 10px;
     color: white;
+    
 }
 
 .toggle-button {
@@ -438,6 +447,7 @@ section .footer-socials {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        
     }
 
     .toggle-button {
@@ -447,6 +457,8 @@ section .footer-socials {
     .navbar-links {
         display: none;
         width: 100%;
+        color: white;
+        
     }
 
     .navbar-links ul {
@@ -456,15 +468,18 @@ section .footer-socials {
 
     .navbar-links ul li {
         text-align: center;
+        
     }
 
     .navbar-links ul li a {
         padding: .5rem 1rem;
         
+        
     }
 
     .navbar-links.active {
         display: flex;
+        
     }
 }
 
