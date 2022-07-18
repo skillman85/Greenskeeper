@@ -121,54 +121,66 @@ section .footer-socials {
 /* COURSE BOXES LIST*/
 
 h3 {
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .course-boxes {
 	display: grid;
-	grid-gap: 90px;
-	grid-auto-rows:400px;
-	grid-template-columns: 300px 300px 300px;
+	grid-gap: 50px;
+	grid-auto-rows:450px;
+	grid-template-columns: repeat(auto-fit, 250px); /*TO MAKE BOXES FIT & WRAP*/
 	justify-content: center;
-	padding: 10px;
-	margin-top: 50px;
 	
+	margin-top: 20px;
+
 }
 
 
 .course-boxes div {
 	text-align: center;
-	padding: 20px;
-	color: slategrey;
 }
 
 
 .course-boxes li {
 	background-color: white;
 	list-style:none;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Fredericka the great', cursive;
 	font-style: italic;
-		
+    font-size: 15px;
+	padding: 10px;
+    	
 }
 
+
 /*COURSE PLAYTHROUGH VIDEOS*/
+
+.media {
+    margin-top: 80px;
+}
 
 section .media {
 	display: grid;
 	grid-template-rows: 700px auto;
-	grid-template-columns: 400px auto;
-	justify-items: center;
-	
+	grid-template-columns: repeat(auto-fit, 100px); 
+    
+    
 }
+
+iframe {
+    justify-items: center;
+}
+
 
 .youtube {
 	background-color:#738d74;
+    
 }
 
 .youtube iframe {
 	padding: 20px;
 	margin: 40px 0;
+    justify-items: stretch;
 }
 
 /*FOOTER DETAILS*/
