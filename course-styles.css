@@ -122,6 +122,9 @@ section .footer-socials {
 
 h3 {
 	font-size: 20px;
+    color: darkslategray;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .course-boxes {
@@ -138,6 +141,9 @@ h3 {
 
 .course-boxes div {
 	text-align: center;
+    border: 1px solid rgb(173, 170, 170);
+    
+
 }
 
 
@@ -146,42 +152,64 @@ h3 {
 	list-style:none;
 	font-size: 15px;
 	font-family: 'Fredericka the great', cursive;
-	font-style: italic;
     font-size: 15px;
 	padding: 10px;
+    
     	
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-shadow: 1px 1px 0px rgb(241, 241, 239);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color:#848B79;
+    color:#413839;
 }
 
 
 /*COURSE PLAYTHROUGH VIDEOS*/
 
 .media {
-    margin-top: 80px;
-}
-
-section .media {
-	display: grid;
-	grid-template-rows: 700px auto;
-	grid-template-columns: repeat(auto-fit, 100px); 
-    
-    
+    display: flex;
+    justify-content: center;
 }
 
 iframe {
-    justify-items: center;
-}
-
-
-.youtube {
-	background-color:#738d74;
+    padding: 20px;
+	margin: 40px 0;
+    margin: 0 auto;
     
 }
 
-.youtube iframe {
-	padding: 20px;
-	margin: 40px 0;
-    justify-items: stretch;
+
+
+@media screen and (max-width:500px) {
+    iframe {
+        max-width: 100%;
+        
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*FOOTER DETAILS*/
 
