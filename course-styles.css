@@ -15,7 +15,6 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 font-family: 'Readex Pro', sans-serif;
-color: white;
 background-color: white;
 color: var(--text-color);
 
@@ -130,10 +129,9 @@ h3 {
 .course-boxes {
 	display: grid;
 	grid-gap: 50px;
-	grid-auto-rows:450px;
-	grid-template-columns: repeat(auto-fit, 250px); /*TO MAKE BOXES FIT & WRAP*/
+	grid-auto-rows:850px;
+	grid-template-columns: repeat(auto-fit, 350px); /*TO MAKE BOXES FIT & WRAP*/
 	justify-content: center;
-	
 	margin-top: 20px;
 
 }
@@ -149,12 +147,10 @@ h3 {
 
 .course-boxes li {
 	background-color: white;
-	list-style:none;
+	list-style: none;
 	font-size: 15px;
 	font-family: 'Fredericka the great', cursive;
-    font-size: 15px;
-	padding: 10px;
-    
+    padding-bottom: 15px;
     	
 }
 
@@ -182,7 +178,6 @@ h2 {
 
 iframe {
     padding: 20px;
-	margin: 40px 0;
     margin: 0 auto;
     
 }
@@ -307,7 +302,6 @@ iframe {
 .navbar-links li a {
     display: block;
     text-decoration: none;
-    color: rgb(71, 95, 65);
     background-color: #738d74;
     color: white;
     margin-top: 30px;
