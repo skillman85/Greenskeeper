@@ -141,8 +141,9 @@ h3 {
     
 }
 
-#quote2 {
+.quote1, .quote2,  .quote3{
     color: #517958;
+    
 }
 
 
