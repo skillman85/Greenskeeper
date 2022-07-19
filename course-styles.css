@@ -117,20 +117,77 @@ section .footer-socials {
 	max-width: 100%;
 }
 
-/* COURSE BOXES LIST*/
+/* QUOTES - BLOCKQUOTE*/
 
 h3 {
-	font-size: 20px;
+	font-size: 15px;
     color: darkslategray;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+
+/* QUOTES - BLOCKQUOTE*/
+
+.quotes {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin: 30px;
+    
+}
+
+#quote2 {
+    color: #517958;
+}
+
+
+blockquote {
+    
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    width: 500px;
+    padding: 20px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+    text-align: center;
+    align-items: center;
+    display: block;
+    }
+    
+    blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+    }
+    
+    blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    }
+     
+    blockquote cite:before {
+    content: "\2014 \2009";
+    }
+
+
+/* COURSE BOXES LIST*/
 .course-boxes {
 	display: grid;
 	grid-gap: 50px;
 	grid-auto-rows:max-content;
-	grid-template-columns: repeat(auto-fit, 450px); /*TO MAKE BOXES FIT & WRAP*/
+	grid-template-columns: repeat(auto-fit, 350px); /*TO MAKE BOXES FIT & WRAP*/
 	justify-content: center;
 	margin-top: 20px;
 
