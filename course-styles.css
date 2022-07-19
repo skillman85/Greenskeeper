@@ -129,7 +129,7 @@ h3 {
 .course-boxes {
 	display: grid;
 	grid-gap: 50px;
-	grid-auto-rows:850px;
+	grid-auto-rows:max-content;
 	grid-template-columns: repeat(auto-fit, 450px); /*TO MAKE BOXES FIT & WRAP*/
 	justify-content: center;
 	margin-top: 20px;
@@ -140,8 +140,6 @@ h3 {
 .course-boxes div {
 	text-align: center;
     border: 1px solid rgb(173, 170, 170);
-    
-
 }
 
 
@@ -150,13 +148,10 @@ h3 {
 	list-style: none;
 	font-size: 15px;
 	font-family: 'Fredericka the great', cursive;
-    padding-bottom: 15px;
-    	
+    padding-bottom: 15px;	
 }
 
-.course-boxes .NR { /*CHANGE ALL BOXES TO THIS TO MAKE LIST FIT BOX*/
-    height: 500px;
-}
+
 
 h2 {
     text-align: center;
