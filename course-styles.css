@@ -14,7 +14,7 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-font-family: 'Readex Pro', sans-serif;
+font-family: 'Anton', sans-serif;
 background-color: white;
 color: var(--text-color);					
 
@@ -228,6 +228,8 @@ h2 {
 }
 
 
+
+
 /*COURSE PLAYTHROUGH VIDEOS*/
 
 .media {
@@ -251,10 +253,35 @@ iframe {
 }
 
 
+.playthrough {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: 30px;
+}
+
+p {
+    margin-top: 30px;
+}
 
 
+.critiques {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 25px;
+    color: #4b4b4b;
+}
 
 
+.critique-social {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    color: #2a5338;
+}
 
 
 
@@ -355,7 +382,7 @@ iframe {
 .navbar-links li {
     list-style: none;
     background-color: #738d74;
-    
+    font-family: 'Anton', sans-serif;
 }
 
 .navbar-links li a {
