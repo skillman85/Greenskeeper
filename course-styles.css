@@ -265,22 +265,17 @@ p {
 
 
 .critiques {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    padding: 20px;
-    font-size: 25px;
-    color: #4b4b4b;
+    display: block;
+    margin: 0 auto;
+    
 }
 
 
-.critique-social {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    justify-content: space-evenly;
-    font-size: 25px;
+.critique-social  { 
+    
+    font-size: 20px;
     color: #2a5338;
+    margin-bottom: 10px;
 }
 
 
