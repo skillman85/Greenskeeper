@@ -102,150 +102,70 @@ li:hover {
   
 
  
-section .footer-socials {
-	display: flex;
-	gap: 1rem;
-    padding: 0;
-    justify-content: center;
-}
-
-/*COURSE SKETCH LOGO*/
-
-.course-sketch img {
-	display: block;
-	margin: 0 auto;
-	max-width: 100%;
-}
-
-/* QUOTES - BLOCKQUOTE*/
-
-h3 {
-	font-size: 15px;
-    color: darkslategray;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-
-/* QUOTES - BLOCKQUOTE*/
-
-.quotes {
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    flex-wrap: wrap;
-    padding: 50px;
-    margin: 30px;
-    
-}
-
-#quote2 {
-    color: #517958;
-}
-
-
-blockquote {
-    
-    font-family: Georgia, serif;
-    font-size: 18px;
-    font-style: italic;
-    width: 500px;
-    padding: 20px;
-    line-height: 1.45;
-    position: relative;
-    color: #383838;
-    text-align: center;
-    align-items: center;
-    display: block;
-    }
-    
-    blockquote:before {
-    display: block;
-    padding-left: 10px;
-    content: "\201C";
-    font-size: 80px;
-    position: absolute;
-    left: -20px;
-    top: -20px;
-    color: #7a7a7a;
-    }
-    
-    blockquote cite {
-    color: #999999;
-    font-size: 14px;
-    display: block;
-    margin-top: 5px;
-    }
-     
-    blockquote cite:before {
-    content: "\2014 \2009";
-    }
-
-
-/* COURSE BOXES LIST*/
-.course-boxes {
-	display: grid;
-	grid-gap: 50px;
-	grid-auto-rows:max-content;
-	grid-template-columns: repeat(auto-fit, 350px); /*TO MAKE BOXES FIT & WRAP*/
-	justify-content: center;
-	margin-top: 20px;
-
-}
-
-
-.course-boxes div {
-	text-align: center;
-    border: 1px solid rgb(173, 170, 170);
-}
-
-
-.course-boxes li {
-	background-color: white;
-	list-style: none;
-	font-size: 15px;
-	font-family: 'Fredericka the great', cursive;
-    padding-bottom: 15px;	
-}
 
 
 
-h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-top: 20px;
-    font-family: 'Love Ya Like A Sister', cursive;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    text-shadow: 1px 1px 0px rgb(241, 241, 239);
-    padding-bottom: 50px;
-    padding-top: 50px;
-    background-color:#848B79;
-    color:#413839;
-}
-
-
-/*COURSE PLAYTHROUGH VIDEOS*/
-
-.media {
-    display: flex;
-    justify-content: center;
-}
-
-iframe {
-    padding: 20px;
-    margin: 0 auto;
-    
-}
 
 
 
-@media screen and (max-width:500px) {
-    iframe {
-        max-width: 100%;
-        
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -433,3 +353,9 @@ iframe {
 
 
 
+section .footer-socials {
+	display: flex;
+	gap: 1rem;
+    padding: 0;
+    justify-content: center;
+}
