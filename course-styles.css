@@ -47,10 +47,14 @@ li {
     
 }
 
+p {
+    margin: 30px 0;
+}
+
 a {
     text-decoration: none;
+    margin-bottom: 30px;
     background-color: #738d74;
-    
     
 }
 
@@ -270,12 +274,17 @@ p {
     
 }
 
+.critiques a {
+    font-size: 30px;
+    background-color: white;
+    
+}
 
 .critique-social  { 
     
     font-size: 20px;
     color: #2a5338;
-    margin-bottom: 10px;
+    padding: 30px;
 }
 
 
