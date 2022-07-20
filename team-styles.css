@@ -125,22 +125,37 @@ h2 {
     align-items: center;
     margin-top: 5rem;
     text-align: center;
+    background-image:url(./images/office.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
 
+@media screen and (max-width: 1000px) {
+    .about {
+        background-image: none;
+    }
+    
 }
 
 
 .about p {
     padding: 5px;
     line-height: 1.5;
+    
 }
  
 .my-socials  {
     
     margin-top: 3rem;
+    
 }
 
 .my-image img {
     border-radius: 50%;
+    padding-top: 20px;
 }
 
 
