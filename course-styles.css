@@ -147,7 +147,7 @@ blockquote {
     font-size: 18px;
     font-style: italic;
     width: 500px;
-    padding: 20px;
+    padding: 30px;
     line-height: 1.45;
     position: relative;
     color: #383838;
@@ -161,7 +161,7 @@ blockquote {
     
     blockquote:before {
     display: block;
-    padding-left: 10px;
+    padding-left: 20px;
     content: "\201C";
     font-size: 80px;
     position: absolute;
@@ -216,7 +216,7 @@ blockquote {
 h2 {
     text-align: center;
     font-size: 2.5rem;
-    margin-top: 20px;
+    margin-top: 40px;
     font-family: 'Love Ya Like A Sister', cursive;
     padding-right: 1rem;
     padding-left: 1rem;
@@ -240,6 +240,7 @@ h2 {
 iframe {
     padding: 20px;
     margin: 0 auto;
+    margin-top: 40px;
     
 }
 
