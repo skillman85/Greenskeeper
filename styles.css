@@ -5,7 +5,7 @@
     --course-info: rgb(0, 0, 0);
     --images-background: rgb(192, 207, 192);
     --h2: rgb(16, 58, 16);
-    --font-family: 'Readex Pro', sans-serif;
+    --font-family: 'Stylish', sans-serif;
     --wrapper-back: rgb(68, 85, 67);
   }
 
@@ -14,7 +14,7 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-font-family: 'Anton', sans-serif;
+font-family: 'Stylish', sans-serif;
 color: white;
 background-color: white;
 color: var(--text-color)
@@ -50,7 +50,7 @@ li {
 
 a {
     text-decoration: none;
-    background-color: #738d74;
+    
     
     
 }
@@ -435,6 +435,7 @@ section .footer-socials {
     justify-content: space-between;
     width: 40px;
     height: 21px;
+    background-color: #738d74;
 }
 
 .toggle-button .bar {
