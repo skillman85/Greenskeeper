@@ -16,7 +16,7 @@ margin: 0;
 padding: 0;
 font-family: 'Anton', sans-serif;
 background-color: white;
-color: var(--text-color);					
+				
 
 
 }
@@ -121,7 +121,7 @@ section .footer-socials {
 	max-width: 100%;
 }
 
-/* QUOTES - BLOCKQUOTE*/
+
 
 h3 {
 	font-size: 15px;
@@ -143,9 +143,6 @@ h3 {
     
 }
 
-#quote2 {
-    color: #517958;
-}
 
 
 blockquote {
@@ -213,6 +210,7 @@ blockquote {
     padding: 0;
     padding-bottom: 15px;	
     background-color: white;
+    color:#738d74;
 }
 
 
@@ -274,26 +272,20 @@ p {
     
 }
 
-.critiques a {
-    font-size: 30px;
-    background-color: white;
-    
-}
 
 .critique-social  { 
     
     font-size: 20px;
-    color: #2a5338;
+    color: rgb(153, 124, 57);
     padding: 30px;
 }
 
-
-
-
-
-
-
-
+.critiques a {
+    font-size: 20px;
+    background-color: white;
+    margin-inline: 10px;
+    color: gray;
+}
 
 
 /*FOOTER DETAILS*/
@@ -309,12 +301,14 @@ p {
     margin-bottom: 10px;
     margin-top: 100px;
     background-color: white;
+    color:#738d74;
 }
 
 .footer-socials p {
     margin-bottom: 5px;
     margin-top: 100px; 
     background-color: white;
+    color:#738d74;
 }
 
 
