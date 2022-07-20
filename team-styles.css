@@ -5,7 +5,6 @@
     --course-info: rgb(0, 0, 0);
     --images-background: rgb(192, 207, 192);
     --h2: rgb(16, 58, 16);
-    --font-family: 'Readex Pro', sans-serif;
     --wrapper-back: rgb(68, 85, 67);
   }
 
@@ -49,7 +48,7 @@ li {
 
 a {
     text-decoration: none;
-    background-color: #738d74;
+    background-color: white;
     
     
 }
@@ -98,17 +97,58 @@ li:hover {
     max-width: 100%;
     margin: 0 auto;
 	margin-bottom: 0px;
+    
 }
-  
 
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 110px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-shadow: 1px 1px 0px rgb(241, 241, 239);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color:#848B79;
+    color:#413839;
+    margin-bottom: 250px;
+}
+
+.about {
+    display: grid;
+	grid-gap: 60px;
+	grid-auto-rows:max-content;
+	grid-template-columns: repeat(auto-fit, 350px); /*TO MAKE BOXES FIT & WRAP*/
+	justify-content: center;
+	margin-top: 20px;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+
+}
+
+
+.about p {
+    padding: 5px;
+    line-height: 1.5;
+}
  
+.my-socials  {
+    
+    margin-top: 3rem;
+}
+
+.my-image img {
+    border-radius: 50%;
+}
 
 
-
-
-
-
-
+ion-icon {
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+}
 
 
 
@@ -300,6 +340,7 @@ li:hover {
     justify-content: space-between;
     width: 40px;
     height: 21px;
+    background-color: #738d74;
 }
 
 .toggle-button .bar {
@@ -307,6 +348,7 @@ li:hover {
     width: 100%;
     background-color: rgb(71, 95, 65);
     border-radius: 10px;
+   
 }
 
 @media (max-width: 1000px) {
