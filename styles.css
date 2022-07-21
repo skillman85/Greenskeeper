@@ -311,13 +311,11 @@ section .footer-socials {
 /*COURSE INFO*/
 
 .images p  {
-    background-color:var(--images-background);
-    padding: 10px;
-    margin-bottom: 8px;
+    
+    padding: 2px;
+    margin-bottom: 5px;
     text-align: center;
-    border-radius: 10px;
-    border: 2px solid slategrey;
-    color: #3A3B3C;
+    font-size: 12px;
     
 }
 
