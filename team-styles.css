@@ -112,33 +112,34 @@ h2 {
     padding-top: 50px;
     background-color:#848B79;
     color:#413839;
-    margin-bottom: 250px;
+    
 }
 
 .about {
     display: grid;
-	grid-gap: 60px;
-	grid-auto-rows:max-content;
-	grid-template-columns: repeat(auto-fit, 350px); /*TO MAKE BOXES FIT & WRAP*/
-	justify-content: center;
-	margin-top: 20px;
+    grid-gap: 60px;
+    grid-auto-rows:max-content;
+    grid-template-columns: repeat(auto-fit, 350px); /*TO MAKE BOXES FIT & WRAP*/
+    justify-content: center;
+    margin-top: 20px;
     align-items: center;
     margin-top: 5rem;
     text-align: center;
-    background-image:url(./images/office.JPG);
-    background-size: contain;
+    background-image:url(./images/Background.JPG);
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 50px;
     
 }
 
-@media screen and (max-width: 1000px) {
+/*@media screen and (max-width: 1000px) {
     .about {
         background-image: none;
     }
     
-}
+    ******uncomment this section to take away the background image certain screen size
+}*/
 
 
 .about p {
