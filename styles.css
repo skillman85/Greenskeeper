@@ -122,6 +122,13 @@ li:hover {
     
 }
 
+.sub-header  {
+	text-align: center;
+	font-size: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 #pga {
     float: left;
     width: 150px;
@@ -152,7 +159,7 @@ li:hover {
     display: grid;
 	grid-gap: 10px;
 	grid-auto-rows:max-content;
-	grid-template-columns: repeat(auto-fit, 550px); /*TO MAKE BOXES FIT & WRAP*/
+	grid-template-columns: repeat(auto-fit, 350px); /*TO MAKE BOXES FIT & WRAP*/
 	justify-content: center;
 	margin-top: 20px;
     align-items: center;
@@ -182,6 +189,13 @@ li:hover {
     text-decoration: underline;
 }
 
+
+
+@media screen and (max-width:500px) {
+	.articles {
+		max-width: 100%;
+	}
+}
 
 .sub-header1 a {
     color: rgb(71, 71, 97);
