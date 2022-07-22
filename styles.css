@@ -134,6 +134,7 @@ li:hover {
     display: flex;
     justify-content: center;
     gap: 20px;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 600px;) {
@@ -145,8 +146,6 @@ li:hover {
 #tgc {
    margin-top: 90px;
 }
-.wrapper img {
-    }
 
 .articles {
     display: grid;
