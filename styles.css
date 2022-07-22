@@ -136,6 +136,12 @@ li:hover {
     gap: 20px;
 }
 
+@media screen and (max-width: 600px;) {
+    .page-links { 
+        max-width: 100%;
+    }
+}
+
 #tgc {
    margin-top: 90px;
 }
