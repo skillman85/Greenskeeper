@@ -93,6 +93,7 @@ li:hover {
 }   
 
 
+
 /*MAIN LOGO*/
 .logo img {
     display: block;
@@ -119,34 +120,73 @@ li:hover {
     justify-content: space-evenly;
     flex-wrap: wrap;
     
-    
 }
 
-.article {
+#pga {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.page-links {
     display: flex;
-    flex-wrap: wrap;   
+    justify-content: center;
+    gap: 20px;
 }
 
-.sub-header  {
-    text-align: center;
-    font-size: 18px;
-    padding: 60px;
-    
+#tgc {
+   margin-top: 90px;
+}
+.wrapper img {
+    }
+
+.articles {
+    display: grid;
+	grid-gap: 10px;
+	grid-auto-rows:max-content;
+	grid-template-columns: repeat(auto-fit, 550px); /*TO MAKE BOXES FIT & WRAP*/
+	justify-content: center;
+	margin-top: 20px;
+    align-items: center;
+    background-color: rgb(147, 150, 142);
 }
 
-.sub-header1, .sub-header2, .sub-header3 {
+
+
+
+
+.sub-header1, .sub-header2, .sub-header3, .sub-header4 {
     text-align: center;
     font-size: 25px;
     padding: 60px;
-    background-color:#738d74;
+    background-color:#879187;
     color: white;
     margin-bottom: 10px;
     margin-top: 15px;
-	border: 9px solid #999;
+	
     
+}
+.sub-header4 {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.sub-header4 a {
+    color: rgb(71, 71, 97);
+    background-color:#839183;
+    margin: 0px 5px;
+    text-decoration: underline;
 }
 
 
+.sub-header1 a {
+    color: rgb(71, 71, 97);
+    background-color:#839183;
+    margin: 0px 5px;
+    text-decoration: underline;
+}
 .top-body {
     background-image:url(./images/plan.jpg);
     background-repeat:  repeat;  
@@ -155,7 +195,7 @@ li:hover {
 .articles p {
 	padding: 20px;
 	border: 1px solid white;
-	background-color:#738d74;
+	background-color:#839183;
 	color: white;
 }
 
@@ -315,7 +355,7 @@ section .footer-socials {
     padding: 2px;
     margin-bottom: 5px;
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
     
 }
 
