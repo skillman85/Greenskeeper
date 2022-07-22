@@ -134,12 +134,11 @@ li:hover {
     display: flex;
     justify-content: center;
     gap: 20px;
-    max-width: 100%;
 }
 
 @media screen and (max-width: 600px;) {
     .page-links { 
-        width: 100px;
+        max-width: 100%;
 
         
     }
@@ -174,10 +173,6 @@ li:hover {
     margin-top: 15px;
 	
     
-}
-.sub-header4 {
-    padding-top: 80px;
-    padding-bottom: 70px;
 }
 
 .sub-header4 a {
