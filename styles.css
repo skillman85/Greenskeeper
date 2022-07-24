@@ -161,7 +161,7 @@ li:hover {
     display: grid;
 	grid-gap: 10px;
 	grid-auto-rows:max-content;
-	grid-template-columns: repeat(auto-fit, 390px); /*TO MAKE BOXES FIT & WRAP*/
+	grid-template-columns: repeat(auto-fit); /*TO MAKE BOXES FIT & WRAP*/
 	justify-content: center;
 	margin-top: 20px;
     background-color: rgb(138, 145, 128);
@@ -376,6 +376,7 @@ section .footer-socials {
 
 .cut {
    background-color:#848B79;
+   text-align:center;
 }
 
 /*FOOTER DETAILS*/
