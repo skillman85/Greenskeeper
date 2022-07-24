@@ -159,11 +159,10 @@ li:hover {
     display: grid;
 	grid-gap: 10px;
 	grid-auto-rows:max-content;
-	grid-template-columns: repeat(auto-fit, 350px); /*TO MAKE BOXES FIT & WRAP*/
+	grid-template-columns: repeat(auto-fit, 750px); /*TO MAKE BOXES FIT & WRAP*/
 	justify-content: center;
 	margin-top: 20px;
-    align-items: center;
-    background-color: rgb(147, 150, 142);
+    background-color: rgb(138, 145, 128);
 }
 
 
@@ -173,12 +172,13 @@ li:hover {
 .sub-header1, .sub-header2, .sub-header3 {
     text-align: center;
     font-size: 25px;
-    padding: 60px;
-    background-color:#879187;
+    padding: 30px;
+    background-color:#688068;
     color: white;
     margin-bottom: 10px;
     margin-top: 15px;
-	
+    border: 1px solid white;
+	border-radius: 20px;
 }
 
 
@@ -210,7 +210,8 @@ li:hover {
 
 .articles p {
 	padding: 20px;
-	border: 1px solid white;
+
+
 	background-color:#839183;
 	color: white;
 }
@@ -223,7 +224,6 @@ li:hover {
     color: slategrey;
     font-weight: bold;
     padding: 40px;
-    border: 1px solid darkgrey;
 	font-family: 'Fredericka the great', cursive;
 } 
 
