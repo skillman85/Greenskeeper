@@ -131,8 +131,8 @@ li:hover {
 
 #pga {
     float: left;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin-left: 50px;
     margin-top: 50px;
 }
@@ -146,26 +146,31 @@ li:hover {
 @media screen and (max-width: 600px;) {
     .page-links { 
         max-width: 100%;
-
+        
         
     }
 }
 
 #tgc {
    margin-top: 90px;
+   width: 80px;
+   
 }
 
 .articles {
     display: grid;
 	grid-gap: 10px;
 	grid-auto-rows:max-content;
-	grid-template-columns: repeat(auto-fit, 350px); /*TO MAKE BOXES FIT & WRAP*/
+	grid-template-columns: repeat(auto-fit, 390px); /*TO MAKE BOXES FIT & WRAP*/
 	justify-content: center;
 	margin-top: 20px;
     background-color: rgb(138, 145, 128);
+    align-items: center;
 }
 
-
+.articles img {
+     background-color: rgb(138, 145, 128);
+}
 
 
 
@@ -346,7 +351,7 @@ h2 {
 h3 {
     text-align: center;
     margin-bottom: 2rem;
-    
+    font-size: 15px;
 }
 
 
@@ -365,7 +370,7 @@ section .footer-socials {
     padding: 2px;
     margin-bottom: 5px;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     
 }
 
