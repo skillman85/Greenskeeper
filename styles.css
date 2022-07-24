@@ -374,6 +374,10 @@ section .footer-socials {
     
 }
 
+.cut {
+   background-color:#848B79;
+}
+
 /*FOOTER DETAILS*/
 
 .footer-socials ion-icon {
