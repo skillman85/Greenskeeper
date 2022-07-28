@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
   }
 
 
@@ -56,7 +57,6 @@
   }
   .nav-links ul li:hover::after { /*makes the green line transition below links*/
     width: 100%;
-
   }
   .text-box {
     width: 100%;
@@ -70,21 +70,18 @@
     font-weight: 700;
     font-family: 'Amatic SC', cursive;
   }
-
   nav .fa-solid {
     display: none;
   }
-
-  @media (max-width: 700px){
+  @media (max-width: 900px){
     .text-box h1 {
       font-size: 30px;
       
     }
-
     .nav-links ul li {
       display: block;
+      
     }
-
     .nav-links {
       position: absolute;
       background: rgb(76, 99, 76);
@@ -94,22 +91,92 @@
       right: -200px;
       text-align: left;
       z-index: 2;
-      transition: .5s;
+      transition: 1s;
+      
     }
     nav .fa-solid {
       display: block;
-      color: white;
+      color: rgb(48, 53, 49);
       margin: 10px;
       font-size: 30px;
-      cursor: pointer;
-      
+      cursor: pointer; 
     }
     .nav-links ul {
       padding: 60px 10px;
       margin-bottom: 25px;
-
+      
     }
     nav img {
-      width: 350px;
+      width: 250px;
+    }
+
+    .nav-links ul li a {
+      font-size: 15px;
     }
   }
+
+
+  /*-----------------Text Section-------------*/
+
+.text {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 80px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: slategray;
+  font-family: 'Ubuntu', sans-serif;
+}
+p{
+  color: rgb(111, 116, 111);
+  font-size: 15px;
+  padding: 15px;
+  line-height: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.text-col {
+  flex-basis: 20%;
+  background: rgb(227, 230, 217);
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  transition: 0.5s;
+}
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 15px;
+  font-size: 25px;
+  color: rgb(129, 129, 129);
+}
+.text-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media (max-width:900px) {
+  .row {
+    flex-direction: column;
+  }
+
+  h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 15px;
+  font-size: 15px;
+  color: rgb(100, 119, 103);
+  }
+  p{
+  color: rgb(147, 151, 147);
+  font-size: 15px;
+  padding: 10px;
+  line-height: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  }
+}
