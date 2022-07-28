@@ -3,11 +3,56 @@
     margin: 0;
     padding: 0;
   }
+
+
+  /*------------------------------------------HEADER AND NAV MENU------------------------------------------------*/
   .header {
-    min-height: 80vh;
+    min-height: 70vh;
     width: 100%;
     background-image: linear-gradient(rgba(48, 50, 58, 0.6),rgba(48, 50, 58, 0.6)),url(./images/header.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
+  }
+
+  nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  nav img {
+    width: 450px;
+  }
+
+  .nav-links {
+    flex: 1;
+    text-align: right;
+  }
+
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+  .nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .nav-links ul li::after { /*this selector adds the green line under the links ready for transition*/
+    content: '';/*this makes the line 0 wide until we add transition*/
+    width: 0%;
+    height: 2px;
+    background: rgb(72, 222, 72);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  .nav-links ul li:hover::after { /*makes the green line transition below links*/
+    width: 100%;
+
   }
