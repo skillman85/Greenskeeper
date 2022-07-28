@@ -6,10 +6,6 @@
     background-color: var(--head-color);
     font-size: var(--my_font);
   }
-  
-  header {
-    height: 80px;
-  }
   .header {
     min-height: 80vh;
     width: 100%;
