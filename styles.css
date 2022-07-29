@@ -124,7 +124,7 @@
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 180px;
 }
 h1 {
   font-size: 26px;
@@ -132,7 +132,7 @@ h1 {
   color: white;
   font-family: 'Istok Web', sans-serif;
 }
-.text h1 {
+.text h2 {
   color: rgb(18, 106, 5);;
 }
 p{
@@ -199,11 +199,34 @@ h3{
 }
 
 
+/*--------------------LATEST COURSES----------------*/
 
-
-
-
-
+.latest-courses {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.latest-courses h2 {
+  color: rgb(18, 106, 5);;
+}
+.latest-courses a{
+  color: rgb(18, 106, 5);;
+  text-decoration: none;
+}
+.latest-courses a:hover{
+  /*this selector adds the green line under the links ready for transition*/
+  content: '';/*this makes the line 0 wide until we add transition*/
+  width: 0%;
+  height: 2px;
+  background: rgb(72, 222, 72);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.latest-courses a:hover::after { /*makes the green line transition below links*/
+  width: 100%;
+}
 
 
 
