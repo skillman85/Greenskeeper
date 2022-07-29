@@ -210,12 +210,15 @@ h3{
 .latest-courses h2 {
   color: rgb(18, 106, 5);;
 }
-.latest-courses a{
+
+.latest-courses a {
+  
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12px;
   color: rgb(18, 106, 5);;
-  text-decoration: none;
+  cursor: pointer;
 }
-.latest-courses a:hover{
-  /*this selector adds the green line under the links ready for transition*/
+.latest-courses p a::after { /*this selector adds the green line under the links ready for transition*/
   content: '';/*this makes the line 0 wide until we add transition*/
   width: 0%;
   height: 2px;
@@ -224,10 +227,9 @@ h3{
   margin: auto;
   transition: 0.5s;
 }
-.latest-courses a:hover::after { /*makes the green line transition below links*/
-  width: 100%;
+.latest-courses p a:hover::after { /*makes the green line transition below links*/
+  width: 50%;
 }
-
 
 
 
