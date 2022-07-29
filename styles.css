@@ -273,6 +273,7 @@ h3{
 @media (max-width:900px){
   .footer div h3 {
     font-size: 14px;
+    margin-top: 70px;
   }
   .social-icons i {
     font-size: 15px;
@@ -281,12 +282,14 @@ h3{
   .critique-icons i {
     font-size: 15px;
     cursor: pointer;
+    
   }
   .footer {
     width: 100%;
     margin-top: 40px;
-    padding: 80px 1%;
+    padding: 40px 1%;
     background: rgb(233, 240, 233);
     display: flex;
+    flex-direction: column;
   }
 }
