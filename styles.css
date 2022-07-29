@@ -225,8 +225,8 @@ h3{
 .footer {
   width: 100%;
   background-color: ;
-  margin-top: 150px;
-  padding: 100px 22%;
+  margin-top: 100px;
+  padding: 70px 22%;
   background: rgb(198, 215, 198);
   color: rgb(18, 106, 5);
   display: flex;
@@ -250,7 +250,7 @@ h3{
   font-size: 18px;
 }
 .social-icons {
-  margin-top: 30px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
 }
@@ -258,8 +258,18 @@ h3{
   font-size: 22px;
   margin: 10px;
   cursor: pointer;
-  color: rgb(18, 106, 5);;
 }
+.critique-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.critique-icons i {
+  font-size: 15px;
+  margin: 2px;
+  cursor: pointer;
+}
+
 @media (max-width:900px){
   .footer div h3 {
     font-size: 14px;
@@ -268,12 +278,16 @@ h3{
     font-size: 14px;
     margin: 10px;
     cursor: pointer;
-    color: rgb(18, 106, 5);;
+  }
+  .critique-icons i {
+    font-size: 10px;
+    margin: 10px;
+    cursor: pointer;
   }
   .footer {
     width: 100%;
-    margin-top: 80px;
-    padding: 80px 5%;
+    margin-top: 40px;
+    padding: 80px 1%;
     background: rgb(233, 240, 233);
     display: flex;
   }
