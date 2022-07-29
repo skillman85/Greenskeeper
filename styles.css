@@ -43,8 +43,10 @@
     color: white;
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
+    padding: 10px;
+    align-items: center;
   }
   .nav-links ul li::after { /*this selector adds the green line under the links ready for transition*/
     content: '';/*this makes the line 0 wide until we add transition*/
@@ -198,6 +200,44 @@ h3{
   font-weight: bold;
 }
 
+/*---------------------QUOTES-----------------------*/
+blockquote {
+    
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    padding: 30px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    width: 300px;
+    margin: 0 auto;
+    }
+    
+    blockquote:before {
+    display: block;
+    padding-left: 20px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+    }
+    
+    blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    }
+     
+    blockquote cite:before {
+    content: "\2014 \2009";
+    }
 
 /*--------------------LATEST COURSES----------------*/
 
@@ -261,14 +301,15 @@ h3{
 }
 
 .col-2 {
-  flex-grow: 2;
+  flex-grow: 1;
 }
+
 .footer a{
  display: block;
  color: rgb(132, 136, 132);
  font-size: 12px;
  text-decoration: none;
- padding-top: 10px;
+ padding-top: 20px;
  
 }
 .footer div h3 {
@@ -291,7 +332,6 @@ h3{
 }
 .critique-icons i {
   font-size: 15px;
-  margin: 2px;
   cursor: pointer;
 }
 
