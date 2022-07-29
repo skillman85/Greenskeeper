@@ -77,7 +77,6 @@
     .text-box h1 {
       font-size: 25px;
 			color: white;
-      
     }
     .nav-links ul li {
       display: block;
@@ -197,4 +196,85 @@ h3{
   color: rgb(18, 106, 5);;
   text-decoration: none;
   font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------FOOTER-----------------*/
+
+.footer {
+  width: 100%;
+  background-color: ;
+  margin-top: 150px;
+  padding: 100px 22%;
+  background: rgb(198, 215, 198);
+  color: rgb(18, 106, 5);
+  display: flex;
+}
+.footer div {
+  text-align: center;
+}
+
+.col-2 {
+  flex-grow: 2;
+}
+.footer a{
+ display: block;
+ color: rgb(132, 136, 132);
+ font-size: 12px;
+ text-decoration: none;
+ padding-top: 10px;
+ 
+}
+.footer div h3 {
+  font-size: 18px;
+}
+.social-icons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.social-icons i {
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+  color: rgb(18, 106, 5);;
+}
+@media (max-width:900px){
+  .footer div h3 {
+    font-size: 14px;
+  }
+  .social-icons i {
+    font-size: 14px;
+    margin: 10px;
+    cursor: pointer;
+    color: rgb(18, 106, 5);;
+  }
+  .footer {
+    width: 100%;
+    margin-top: 80px;
+    padding: 80px 5%;
+    background: rgb(233, 240, 233);
+    display: flex;
+  }
 }
