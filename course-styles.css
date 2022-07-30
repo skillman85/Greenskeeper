@@ -71,7 +71,7 @@
     position: absolute;
     text-align: center;
   }
-  .text-box h1 {
+h1 {
     font-size: 40px;
     font-weight: 700;
     font-family: 'Amatic SC', cursive;
@@ -83,7 +83,6 @@
   @media (max-width: 900px){
     .text-box h1 {
       font-size: 25px;
-			color: white;
     }
     .nav-links ul li {
       display: block;
