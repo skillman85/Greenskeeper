@@ -4,6 +4,10 @@
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
   }
+  
+  html {
+    scroll-behaviour: smooth;
+  }
 
 
   /*------------------------------------------HEADER AND NAV MENU------------------------------------------------*/
@@ -130,7 +134,7 @@
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 70px;
+  padding-top: 120px;
 }
 h1 {
   font-size: 22px;
@@ -154,7 +158,7 @@ p{
   justify-content: space-evenly;
 }
 .text-col {
-  flex-basis: 20%;
+  flex-basis: 30%;
   background: rgb(233, 240, 233);
   border-radius: 10px;
   margin-bottom: 5%;
@@ -245,7 +249,7 @@ blockquote {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 120px;
   padding-bottom: 30px;
 }
 .latest-courses h2 {
@@ -316,7 +320,7 @@ blockquote {
   text-align: center;
   width: 80%;
   margin: auto;
-  padding-top: 40px;
+  padding-top: 120px;
 }
 .team h2 {
   color: rgb(18, 106, 5);;
@@ -365,7 +369,7 @@ h4 {
 .footer {
   width: 100%;
   background-color: ;
-  margin-top: 100px;
+  margin-top: 120px;
   padding: 70px 22%;
   background: rgb(198, 215, 198);
   color: rgb(18, 106, 5);
