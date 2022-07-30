@@ -75,6 +75,7 @@
     font-size: 40px;
     font-weight: 700;
     font-family: 'Amatic SC', cursive;
+    color: rgb(157, 163, 157);
   }
   nav .fa-solid {
     display: none;
