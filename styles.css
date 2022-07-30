@@ -238,8 +238,9 @@ blockquote {
     }
 
     @media (max-width:900px){
-      blockquote .quote {
+      blockquote{
         font-size:15px;
+        width: 100%;
       }
     }
 
