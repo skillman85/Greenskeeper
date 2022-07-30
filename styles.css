@@ -441,3 +441,42 @@ h4 {
 .tutorials{
   margin-top: 40px;
 }
+
+
+
+
+
+/*-----------------------COURSE LIST STYLES--------------------*/
+
+
+
+
+
+/* COURSE BOXES LIST*/
+.course-boxes {
+	display: grid;
+	grid-gap: 50px;
+	grid-auto-rows:max-content;
+	grid-template-columns: repeat(auto-fit, 350px); /*TO MAKE BOXES FIT & WRAP*/
+	justify-content: center;
+	margin-top: 20px;
+
+}
+
+
+.course-boxes div {
+	text-align: center;
+    border: 1px solid rgb(173, 170, 170);
+}
+
+
+.course-boxes li {
+	
+	list-style: none;
+	font-size: 15px;
+	font-family: 'Fredericka the great', cursive;
+    padding: 0;
+    padding-bottom: 15px;	
+    background-color: white;
+    color:#738d74;
+}
