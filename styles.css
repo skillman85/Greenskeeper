@@ -321,7 +321,8 @@ blockquote {
   text-align: center;
   width: 80%;
   margin: auto;
-  padding-top: 120px;
+  margin-top: 10px;
+  padding-top: 2px;
 }
 .team h2 {
   color: rgb(18, 106, 5);;
@@ -335,7 +336,7 @@ p{
   font-family: 'Istok Web', sans-serif;
 }
 .team-col {
-  flex-basis: 44%;
+  flex-basis: 22%;
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: center;
@@ -343,7 +344,7 @@ p{
   padding: 25px;
   cursor: pointer;
   display: block; 
-  margin-top: 20px;
+  margin-top: 2px;
 }
 .team-col img {
   height: 50px;
