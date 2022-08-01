@@ -443,8 +443,19 @@ h4 {
 }
 
 
+.copyright {
+  display: flex;
+  margin: 30px;
+  gap: 100px;
+  justify-content: center;
+  color:#738d74;
+}
 
-
+@media (max-width:900px){
+  .copyright {
+    font-size: 12px;
+  }
+}
 
 /*-----------------------COURSE LIST STYLES--------------------*/
 

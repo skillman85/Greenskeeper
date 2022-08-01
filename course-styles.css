@@ -5,15 +5,12 @@
     font-family: 'Ubuntu', sans-serif;
   }
   
-  html {
-    scroll-behaviour: smooth;
-  }
-
 
   /*------------------------------------------HEADER AND NAV MENU------------------------------------------------*/
   .header {
     min-height: 70vh;
     width: 100%;
+    background-image: linear-gradient(rgba(102, 118, 180, 0.2),rgba(82, 143, 42, 0.2)),url(./images/uinta.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -51,6 +48,14 @@
     cursor: pointer;
     padding: 10px;
     align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+  @media  (max-width :900px){
+    .nav-links ul li a {
+      border: none;
+    }
   }
   .nav-links ul li::after { /*this selector adds the green line under the links ready for transition*/
     content: '';/*this makes the line 0 wide until we add transition*/
@@ -154,7 +159,6 @@ h1 {
 
 .footer {
   width: 100%;
-  background-color: ;
   margin-top: 120px;
   padding: 70px 22%;
   background: rgb(198, 215, 198);
@@ -267,4 +271,16 @@ h1 {
 .course-boxes h3{
   padding:30px 0;
   color: rgb(132, 136, 132);
+}
+.copyright {
+  display: flex;
+  margin: 30px;
+  gap: 100px;
+  justify-content: center;
+  color:#738d74;
+}
+@media (max-width:900px){
+  .copyright {
+    font-size: 12px;
+  }
 }
