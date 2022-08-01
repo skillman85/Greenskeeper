@@ -10,7 +10,7 @@
   .header {
     min-height: 70vh;
     width: 100%;
-    background-image: linear-gradient(rgba(102, 118, 180, 0.2),rgba(82, 143, 42, 0.2)),url(./images/uinta.jpg);
+    background-image: linear-gradient(rgba(32, 41, 77, 0.2),rgba(15, 17, 19, 0.2)),url(./images/uinta.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
