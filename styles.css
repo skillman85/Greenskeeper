@@ -480,12 +480,3 @@ h4 {
     background-color: white;
     color:#738d74;
 }
-
-.copyright {
-  display: flex;
-  justify-content: center;
-  gap: 100px;
-  margin: 60px;
-  color: rgb(132, 136, 132);
-
-}
