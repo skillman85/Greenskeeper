@@ -233,67 +233,114 @@ h3{
 }
 
 
-
-/*-------------------NT --------------*/
-
-.national-treasure {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
-  background: var(--lightest-green);
-  width: 100%;
-  align-items: center;
+.latest-course {
+  padding: 30px 0px;
+  background: var(--light-brown);
 }
 
-.national-treasure img {
-  height: 50vh;
-  padding-right: 300px;
-  align-items: center;
-}
-
-
-.national-treasure h1 {
-  font-size: var(--font-xxl);
-  color: var(--darkest-brown);
-  font-family: var(--font-fat-face);
-  text-align: center;
-}
-
-.national-treasure p {
+.latest-course h2 {
   font-size: var(--font-lg);
-  color: var(--darkest-brown);
-  font-family: var(--font-Barlow);
+  font-weight: bold;
   text-align: center;
+  color: var(--olive-green);
+  font-family: var(--font-Lato);
 }
 
-.national-treasure a {
-  text-decoration: none;
-  color: var(--olive-green);
-  font-weight: bold;
+.slider-container {
+  height: 65vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
 }
 
 @media (max-width:768px) {
-  .national-treasure {
-    height: fit-content;
-  }
-  .national-treasure img {
-    width: auto;
-  }
-  .nt-congrats h1 {
-    font-size: var(--font-sm);
-    color: var(--darkest-brown);
-    font-family: var(--font-fat-face);
+  .slider-container {
+    height: 45vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
     text-align: center;
   }
-  .national-treasure a {
-    text-decoration: none;
-    color: var(--olive-green);
+  .latest-course h2 {
+    font-size: var(--font-sm);
     font-weight: bold;
+    text-align: center;
+    color: var(--olive-green);
+    font-family: var(--font-Lato);
   }
+}
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  bottom: 0;
+}
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50px;
+  margin: 0 0.2em 1em;
+}
+.menu label:hover,
+.menu label:focus {
+  background: #1c87c9;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: left 0s 0.75s;
+}
+[id^="slide"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+  transition: left 0.65s ease-out;
+}
+.slide-1 {
+  background-image: url(./images/vand.PNG);
+}
+.slide-2 {
+  background-image: url(./images/white-tailed.jpg);
+}
+.slide-3 {
+  background-image: url(./images/rhode.jpg);
 }
 
 
+
+
+
+
+
 /*-----------------------FOOTER----------------------*/
+
+.contact {
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.contact h2 {
+  color: var(--dark-green);
+}
+
+i{
+margin-top: 30px;
+font-size: 30px;
+padding: 20px;
+color: var(--md-green);
+}
 
 .copyright {
   display: flex;
