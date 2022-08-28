@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles.css" />
-  <title>Morgans Barber Shop</title>
+  <title>The Greenskeepers Collective</title>
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -56,23 +56,25 @@
 
 <!-------------------------------NAV MENU-------------------------->
 
-  <section class="header">
-    <nav>
-      <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+
+    <nav class="header">
+      <a href="index.html"><img src="./images/logo.png" alt="logo" id="logo"></a>
+      
       <div class="nav-links" id="navLinks">
         <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
-          <ul>
+          <ul class="links">
             <li><a href="">HOME</a></li>
             <li><a href="#who-we-are">WHO WE ARE</a></li>         
             <li><a href="#courses">LATEST COURSES</a></li>          
             <li><a href="#the-team">THE KEEPERS</a></li>          
-            <li><a href="./courseindex.html">FULL COURSE LIST</a></li>
             <li><a href="#contact">GET IN TOUCH</a></li>           
           </ul>
       </div>
+
+
       <i class="fa-solid fa-bars" onclick="showMenu()"></i>
     </nav>
-  </section>
+
 
   
 
@@ -83,53 +85,78 @@
     <p>A bunch of 11 regular guys located globally, who enjoy playing golf and having some banter.</p>
 
     <div class="row">
-      <div class="text-col"
-      data-aos="zoom-in"
-        data-aos-delay="100"
-        data-aos-duration="1000">
+      <div class="text-col" 
+      data-aos="fade-in"
+      data-aos-duration="1500"
+      data-aos-delay="650">
         <h3>WHAT WE BRING</h3>
         <p>Here at the Greenskeepers Collective, we produce some of the best virtual golf courses for the PGA2k21 community, having multiple courses on the <a href="https://www.tgctours.com/" target="_blank" id="tgc">TGC Tours</a> circuit.</p>
       </div>
       <div class="text-col"
-      data-aos="zoom-in"
-        data-aos-delay="200"
-        data-aos-duration="1200">
+      data-aos="fade-in"
+      data-aos-duration="1500"
+      data-aos-delay="700">
         <h3>THE COLLECTIVE</h3>
         <p>11 members make up the Collective, having all formed from there interaction playing the 2k21 game and as far back as the original Golf Club.</p>
       </div>
       <div class="text-col"
-      data-aos="zoom-in"
-        data-aos-delay="300"
-        data-aos-duration="1500">
+      data-aos="fade-in"
+      data-aos-duration="1500"
+      data-aos-delay="750">
         <h3>HERE TO HELP</h3>
         <p>Feel free to message us on any of the below social platforms, or visit <a href="#the-team" id="the-team">The Team</a> to message the keepers direcly.</p>
       </div>
     </div>
   </section>
 
+  <h2>Meet The Team</h2>
+  <section class="team-grid">
 
 
-
-
-<!-----------LATEST COURSES-------------> 
-
-  <div class="latest-course">
-    <h2>Check put latest courses from the Greenskeepers</h2>
-  </div>
-
-  <div class="slider-container">
-    <div class="menu">
-      <label for="slide-dot-1"></label>
-      <label for="slide-dot-2"></label>
-      <label for="slide-dot-3"></label>
+    <div class="team-col">
+      <img src="./images/james.png" alt="james">
+      <h3>James Hillman (AKA- Skillman 85)</h3>
+      <p>Location - England</p>
     </div>
-    <input id="slide-dot-1" type="radio" name="slides" checked>
-    <div class="slide slide-1"></div>
-    <input id="slide-dot-2" type="radio" name="slides">
-    <div class="slide slide-2"></div>
-    <input id="slide-dot-3" type="radio" name="slides">
-    <div class="slide slide-3"></div>
-  </div>
+    <div class="team-col">
+      <img src="./images/tyson.jpg" alt="james">
+      <h3>Tyson Staab (AKA- Trailducker)</h3>
+      <p>Location - USA</p>
+    </div>
+    <div class="team-col">
+      <img src="./images/james.png" alt="james">
+      <h3>James Hillman (AKA- Skillman 85)</h3>
+      <p>Location - England</p>
+    </div>
+    <div class="team-col">
+      <img src="./images/james.png" alt="james">
+      <h3>James Hillman (AKA- Skillman 85)</h3>
+      <p>Location - England</p>
+    </div>
+    <div class="team-col">
+      <img src="./images/james.png" alt="james">
+      <h3>James Hillman (AKA- Skillman 85)</h3>
+      <p>Location - England</p>
+    </div>
+    <div class="team-col">
+      <img src="./images/james.png" alt="james">
+      <h3>James Hillman (AKA- Skillman 85)</h3>
+      <p>Location - England</p>
+    </div>
+    <div class="team-col">
+      <img src="./images/james.png" alt="james">
+      <h3>James Hillman (AKA- Skillman 85)</h3>
+      <p>Location - England</p>
+    </div>
+    <div class="team-col">
+      <img src="./images/james.png" alt="james">
+      <h3>James Hillman (AKA- Skillman 85)</h3>
+      <p>Location - England</p>
+    </div>
+  </section>
+
+
+
 
 
 <!-----------CONTACT-------------> 
